@@ -6,12 +6,13 @@
 	margin-bottom: 40px;
 
 	background: #141618;
-	a {
+}
+	.navigation a {
 		color: white;
 		text-decoration: none;
 		padding: 30px 20px;
-
-		span {
+	}
+	.navigation span {
 			display: inline-block;
 			position: relative;
 			top: -8px;
@@ -24,5 +25,4 @@
 			width: 18px;
 			height: 18px;
 		}
-	}
-}
+
