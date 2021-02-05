@@ -2,6 +2,7 @@ import React, {useContext} from 'react';
 
 // Components
 import Product from './Product';
+import ShoppingCartItem from "./ShoppingCartItem";
 //Contexts
 import {ProductContext} from "../contexts/ProductContext";
 
@@ -16,8 +17,11 @@ const Products = () => {
 					key={product.id}
 					product={product}
 					addItem={addItem}
+					
 				/>
+				
 			))}
+		
 		</div>
 	);
 };
